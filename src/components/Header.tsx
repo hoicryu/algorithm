@@ -10,6 +10,9 @@ const Header: React.FC = () => {
           <Link to="/" className="mx-2 text-white hover:text-gray-300">
             Home
           </Link>
+          <Link to="/string" className="mx-2 text-white hover:text-gray-300">
+            String
+          </Link>
         </nav>
       </div>
     </header>
