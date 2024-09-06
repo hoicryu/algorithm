@@ -3,6 +3,8 @@ import Layout from "./Layout";
 import Home from "pages/Home";
 import StringIndex from "pages/String";
 import DynamicIndex from "pages/Dynamic";
+import DFSIndex from "pages/DFS";
+import BFSIndex from "pages/BFS";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -30,6 +32,22 @@ const App: React.FC = () => {
           element={
             <Layout>
               <DynamicIndex />
+            </Layout>
+          }
+        />
+        <Route
+          path="/dfs"
+          element={
+            <Layout>
+              <DFSIndex />
+            </Layout>
+          }
+        />
+        <Route
+          path="/bfs"
+          element={
+            <Layout>
+              <BFSIndex />
             </Layout>
           }
         />

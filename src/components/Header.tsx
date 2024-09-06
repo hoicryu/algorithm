@@ -16,6 +16,12 @@ const Header: React.FC = () => {
           <Link to="/dynamic" className="mx-2 text-white hover:text-gray-300">
             Dynamic
           </Link>
+          <Link to="/dfs" className="mx-2 text-white hover:text-gray-300">
+            DFS
+          </Link>
+          <Link to="/bfs" className="mx-2 text-white hover:text-gray-300">
+            BFS
+          </Link>
         </nav>
       </div>
     </header>
