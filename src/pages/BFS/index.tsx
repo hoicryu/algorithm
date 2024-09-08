@@ -1,9 +1,9 @@
-import BFS from "components/BFS/BFS";
+import ShortestDistance from "components/BFS/ShortestDistance";
 
 function BFSIndexPage() {
   return (
     <div className="">
-      <BFS />
+      <ShortestDistance />
     </div>
   );
 }
