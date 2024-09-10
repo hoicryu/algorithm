@@ -5,6 +5,7 @@ import StringIndex from "pages/String";
 import DynamicIndex from "pages/Dynamic";
 import DFSIndex from "pages/DFS";
 import BFSIndex from "pages/BFS";
+import HashIndex from "pages/Hash";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -48,6 +49,14 @@ const App: React.FC = () => {
           element={
             <Layout>
               <BFSIndex />
+            </Layout>
+          }
+        />
+        <Route
+          path="/hash"
+          element={
+            <Layout>
+              <HashIndex />
             </Layout>
           }
         />
